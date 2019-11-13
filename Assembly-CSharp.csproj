@@ -70,6 +70,7 @@
     <Compile Include="Assets\HelpScriptPackage\UIAnchor.cs" />
     <Compile Include="Assets\HelpScriptPackage\UIObserveAtt.cs" />
     <Compile Include="Assets\HelpScriptPackage\Utility\ObjectPool.cs" />
+    <Compile Include="Assets\JoystickTest.cs" />
     <Compile Include="Assets\Scripts\CameraFitArea.cs" />
     <Compile Include="Assets\Scripts\CameraFollowObject.cs" />
     <Compile Include="Assets\Scripts\Joystick.cs" />

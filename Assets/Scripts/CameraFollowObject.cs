@@ -31,8 +31,6 @@ public class CameraFollowObject : MonoBehaviour
 		else
 			newCamPositionX = target.position.x;
 
-		Debug.Log(newCamPositionX);
-
 		Camera.main.transform.position = new Vector3(
 			newCamPositionX,
 			cam.transform.position.y,
