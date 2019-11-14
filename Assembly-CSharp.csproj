@@ -62,18 +62,39 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\HelpScriptPackage\AlphaButton.cs" />
-    <Compile Include="Assets\HelpScriptPackage\Attribute.cs" />
-    <Compile Include="Assets\HelpScriptPackage\ExtendedMath.cs" />
-    <Compile Include="Assets\HelpScriptPackage\Singleton.cs" />
-    <Compile Include="Assets\HelpScriptPackage\TimeScaleControl.cs" />
-    <Compile Include="Assets\HelpScriptPackage\UIAnchor.cs" />
-    <Compile Include="Assets\HelpScriptPackage\UIObserveAtt.cs" />
-    <Compile Include="Assets\HelpScriptPackage\Utility\ObjectPool.cs" />
-    <Compile Include="Assets\JoystickTest.cs" />
-    <Compile Include="Assets\Scripts\CameraFitArea.cs" />
-    <Compile Include="Assets\Scripts\CameraFollowObject.cs" />
-    <Compile Include="Assets\Scripts\Joystick.cs" />
+    <Compile Include="Assets\Scripts\Ability\Ability.cs" />
+    <Compile Include="Assets\Scripts\Ability\AbilityCooldown.cs" />
+    <Compile Include="Assets\Scripts\Ability\AttackAbility.cs" />
+    <Compile Include="Assets\Scripts\Ability\ProjectileShootTriggerable.cs" />
+    <Compile Include="Assets\Scripts\Attribute\Attribute.cs" />
+    <Compile Include="Assets\Scripts\Attribute\DamageAtt.cs" />
+    <Compile Include="Assets\Scripts\Attribute\HealthAtt.cs" />
+    <Compile Include="Assets\Scripts\Attribute\ManaAtt.cs" />
+    <Compile Include="Assets\Scripts\Attribute\StaminaAtt.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraFitArea.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraFollowObject.cs" />
+    <Compile Include="Assets\Scripts\Entity\Entity.cs" />
+    <Compile Include="Assets\Scripts\Entity\Hero.cs" />
+    <Compile Include="Assets\Scripts\Entity\HeroData.cs" />
+    <Compile Include="Assets\Scripts\Etc\Projectile.cs" />
+    <Compile Include="Assets\Scripts\Input\Joystick.cs" />
+    <Compile Include="Assets\Scripts\Input\PlayerInput.cs" />
+    <Compile Include="Assets\Scripts\Manager\LevelManager.cs" />
+    <Compile Include="Assets\Scripts\Manager\WaveManager.cs" />
+    <Compile Include="Assets\Scripts\Monster\LevelData.cs" />
+    <Compile Include="Assets\Scripts\Monster\Monster.cs" />
+    <Compile Include="Assets\Scripts\Monster\Wave.cs" />
+    <Compile Include="Assets\Scripts\Monster\WaveData.cs" />
+    <Compile Include="Assets\Scripts\Physics\Movable.cs" />
+    <Compile Include="Assets\Scripts\Physics\PhysicsObject.cs" />
+    <Compile Include="Assets\Scripts\User Interface\AlphaButton.cs" />
+    <Compile Include="Assets\Scripts\User Interface\UIAnchor.cs" />
+    <Compile Include="Assets\Scripts\User Interface\UIManager.cs" />
+    <Compile Include="Assets\Scripts\User Interface\UIObserveAtt.cs" />
+    <Compile Include="Assets\Scripts\Utility\ExtendedMath.cs" />
+    <Compile Include="Assets\Scripts\Utility\ObjectPool.cs" />
+    <Compile Include="Assets\Scripts\Utility\Singleton.cs" />
+    <Compile Include="Assets\Scripts\Utility\TimeScaleControl.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/macbook/Working/Game/Maple Knight/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
