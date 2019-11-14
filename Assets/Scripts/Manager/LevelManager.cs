@@ -8,6 +8,9 @@ public class LevelManager : Singleton<LevelManager> {
 
 	private WaveManager waveManager;
 
+	// Camera
+	public CameraFollowObject camFollowHero;
+
 	// Model
 	public GameObject heroModel;
 
@@ -47,10 +50,10 @@ public class LevelManager : Singleton<LevelManager> {
 	void Update() 
 	{
 		if (!isGameOver) {
-			if (!Player.gameObject.activeInHierarchy) {
-				isGameOver = true;
-				waveManager.ForceKill();
-			}
+			//if (!Player.gameObject.activeInHierarchy) {
+			//	isGameOver = true;
+			//	//waveManager.ForceKill();
+			//}
 			// or LastWaveClear calls. It will be call automatic
 			// when no monster left on the level
 		} else {
@@ -63,19 +66,19 @@ public class LevelManager : Singleton<LevelManager> {
 		// Create hero
 		if (player == null || !player.gameObject.activeInHierarchy)
 			Player = SpawnHero();
-		playerInput.player = Player;
+		//playerInput.player = Player;
+		camFollowHero.target = Player.transform;
 
+		//// =====
 
-		// =====
+		//waveManager.ForceKill();
+		//StartCoroutine( waveManager.Call() );
 
-		waveManager.ForceKill();
-		StartCoroutine( waveManager.Call() );
+		//// =====
 
-		// =====
-
-		// Re-open the game
-		UIManager.Instance.restartButton.SetActive(false);
-		isGameOver = false;
+		//// Re-open the game
+		//UIManager.Instance.restartButton.SetActive(false);
+		//isGameOver = false;
 	}
 
 	public void LastWaveClear()

@@ -65,6 +65,7 @@ public class Attribute : MonoBehaviour {
 		}
 	}
 
+	[SerializeField]
 	private float currentValue;
 	public float CurrentValue {
 		get {

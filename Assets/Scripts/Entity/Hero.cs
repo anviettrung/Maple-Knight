@@ -9,9 +9,9 @@ public class Hero : Entity {
 
 	protected void OnEnable()
 	{
-		attackAble = weapon.GetComponent<ProjectileShootTriggerable>();
+		//attackAble = weapon.GetComponent<ProjectileShootTriggerable>();
 
-		ChangeAbility(0);
+		//ChangeAbility(0);
 	}
 
 	protected override void OnDying() 
