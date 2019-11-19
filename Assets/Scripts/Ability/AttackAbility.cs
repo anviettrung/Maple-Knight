@@ -36,7 +36,7 @@ public class AttackAbility : Ability {
 		clone.GetComponent<Rigidbody2D>().AddForce(direction * projectileSpeed);
 
 		Projectile projectileClone = clone.GetComponent<Projectile> ();
-		projectileClone.teamIndex  = caster.TeamNumber;
+		projectileClone.GetComponent<TeamTag>().SetTeam(caster.gameObject);
 		projectileClone.damage     = caster.damageAtt.maxValue;
 
 		// Spell execute successfully

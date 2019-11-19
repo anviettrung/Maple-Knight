@@ -10,8 +10,6 @@ using UnityEngine;
 [RequireComponent(typeof(DamageAtt))]
 public abstract class Entity : MonoBehaviour {
 
-	public int TeamNumber;
-
 	[System.Serializable]
 	public class AbilityUsing {
 		

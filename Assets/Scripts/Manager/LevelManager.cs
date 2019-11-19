@@ -15,7 +15,7 @@ public class LevelManager : Singleton<LevelManager> {
 	public GameObject heroModel;
 
 	// Input Handle
-	private PlayerInput playerInput;
+	public PlayerInput playerInput;
 
 	// Level information
 	private bool isGameOver;
@@ -32,18 +32,15 @@ public class LevelManager : Singleton<LevelManager> {
 				UIManager.Instance.SetPlayerStatusBar (Attribute.Energy.MANA,    player.manaAtt   );
 				UIManager.Instance.SetPlayerStatusBar (Attribute.Energy.STAMINA, player.staminaAtt);
 
-				for (int i = 0; i < player.Abilities.Count; i++) {
-					UIManager.Instance.SetPlayerAbilityIcon(i, player.Abilities[i]);
-				}
+				//for (int i = 0; i < player.Abilities.Count; i++) {
+				//	UIManager.Instance.SetPlayerAbilityIcon(i, player.Abilities[i]);
+				//}
 			}
 		}
 	}
 
 	void Start()
 	{
-		playerInput = GetComponent<PlayerInput>();
-		waveManager = GetComponent<WaveManager>();
-
 		NewGame();
 	}
 
@@ -66,7 +63,7 @@ public class LevelManager : Singleton<LevelManager> {
 		// Create hero
 		if (player == null || !player.gameObject.activeInHierarchy)
 			Player = SpawnHero();
-		//playerInput.player = Player;
+		playerInput.Player = Player;
 		camFollowHero.target = Player.transform;
 
 		//// =====

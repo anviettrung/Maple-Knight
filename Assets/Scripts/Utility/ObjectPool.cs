@@ -31,7 +31,7 @@ public class ObjectPool : Singleton<ObjectPool>
 	public List<Pool> pools;
 
 	// Use this for initialization
-	void Start () 
+	void Awake () 
 	{
 		foreach (Pool pool in pools) {
 			pool.objects = new List<GameObject>();

@@ -33,7 +33,7 @@ public class CameraFollowObject : MonoBehaviour
 
 		Camera.main.transform.position = new Vector3(
 			newCamPositionX,
-			cam.transform.position.y,
+			target.transform.position.y,
 			cam.transform.position.z);
 			
     }

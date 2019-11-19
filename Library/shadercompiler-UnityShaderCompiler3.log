@@ -5,3 +5,5 @@ Cmd: compileSnippet
 Cmd: initializeCompiler
 Cmd: translateComputeKernel
   api=14 insize=1995 outsize=3502 ok=1
+
+Quitting shader compiler process

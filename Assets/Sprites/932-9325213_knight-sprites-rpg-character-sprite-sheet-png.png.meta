@@ -1,0 +1,1291 @@
+fileFormatVersion: 2
+guid: 974a471e7dfc34441aec5050cb611634
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1529556108601677742
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_0
+  - first:
+      213: -2450200935818263264
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_1
+  - first:
+      213: 8544316629430236814
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_2
+  - first:
+      213: 8607641973383129365
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_3
+  - first:
+      213: -6355136853111478300
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_4
+  - first:
+      213: -5603503157726583172
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_5
+  - first:
+      213: 636871676448338295
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_6
+  - first:
+      213: 7252636774822418844
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_7
+  - first:
+      213: 7927685186126757469
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_8
+  - first:
+      213: -3442803549262653998
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_9
+  - first:
+      213: -7839791728751843078
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_10
+  - first:
+      213: 3101031975600070949
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_11
+  - first:
+      213: 5450494798989363802
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_12
+  - first:
+      213: -1507045991705418612
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_13
+  - first:
+      213: -968011004164912504
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_14
+  - first:
+      213: 1523730485521134511
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_15
+  - first:
+      213: -4973636322565691144
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_16
+  - first:
+      213: -3037371120289001941
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_17
+  - first:
+      213: -158876724751566099
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_18
+  - first:
+      213: 5393607145672383260
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_19
+  - first:
+      213: -941530724507387565
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_20
+  - first:
+      213: 6329992038361131589
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_21
+  - first:
+      213: -4134557831535011886
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_22
+  - first:
+      213: 3725972724072475881
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_23
+  - first:
+      213: -9126213569111876797
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_24
+  - first:
+      213: -2514575057120493582
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_25
+  - first:
+      213: -1942248068529445626
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_26
+  - first:
+      213: -2621242740509173673
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_27
+  - first:
+      213: -8541284611631458374
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_28
+  - first:
+      213: -2869845098246153020
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_29
+  - first:
+      213: -3700257060161261126
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_30
+  - first:
+      213: 4744378008332316557
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_31
+  - first:
+      213: -3159211510022341415
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_32
+  - first:
+      213: 6964043809414059044
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_33
+  - first:
+      213: 180005569845781570
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_34
+  - first:
+      213: -1586651094098030898
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_35
+  - first:
+      213: -8605933044682247498
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_36
+  - first:
+      213: 4625564293465447934
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_37
+  - first:
+      213: -8810443250805729183
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_38
+  - first:
+      213: 4369621729246790668
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_39
+  - first:
+      213: 128362281219767178
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_40
+  - first:
+      213: -4340741067471200176
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_41
+  - first:
+      213: 6203246656631344626
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_42
+  - first:
+      213: -3421799146079741076
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_43
+  - first:
+      213: -4999085641499904901
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_44
+  - first:
+      213: -697646442865110567
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_45
+  - first:
+      213: 2235348037344700395
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_46
+  - first:
+      213: 5459880651313322508
+    second: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_47
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5eff979bd954f268f29a7d75f32895
+      internalID: -1529556108601677742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 287.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1097e18084e4f039beb8a94fc5f5f7
+      internalID: -2450200935818263264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 287.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac7a90471eb24cd0834a932d851a073
+      internalID: 8544316629430236814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 287.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c82d3b2e9bbc45c292aac43301065b1
+      internalID: 8607641973383129365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_4
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 287.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da7a92e2b7c74a6198417b5482c2565
+      internalID: -6355136853111478300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 287.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5276beb857a4ee49016014138d40e7
+      internalID: -5603503157726583172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_6
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 287.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76067ae65e92d480aa2d42b3728e7611
+      internalID: 636871676448338295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_7
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 287.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79e0a2d4cff840d796fa8a48085a1b2
+      internalID: 7252636774822418844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_8
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 287.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb60829694d084e74a68d4bcab5b59ee
+      internalID: 7927685186126757469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_9
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 287.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548442812c27b4ef6a5ed4353901c82a
+      internalID: -3442803549262653998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_10
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 287.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae9697b2691e4507a5d69288f6a6a49
+      internalID: -7839791728751843078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_11
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 287.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b15c04620a1a436991274802cc38a01
+      internalID: 3101031975600070949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9778b7693cea9449b872a7d0603f3f12
+      internalID: 5450494798989363802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_13
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 192.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f052486a022124dc3be2abf030111c30
+      internalID: -1507045991705418612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_14
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 192.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccbd679e210c4c85a6c0c94978c31ec
+      internalID: -968011004164912504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_15
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 192.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df46cd00a2b0645c4aacfc85b5e0ed8b
+      internalID: 1523730485521134511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_16
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 192.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4fb672d850f4c4eb21bb58c83a0375
+      internalID: -4973636322565691144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_17
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 192.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add3ab2fa4ec947159826714a6671ddd
+      internalID: -3037371120289001941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_18
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 192.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b39782ce7ad7478f8884fade6e78763
+      internalID: -158876724751566099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_19
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 192.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989d5da2efe3c4932875d7b471130dd7
+      internalID: 5393607145672383260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_20
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 192.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386d464376d914d16a855c26e1bf18a9
+      internalID: -941530724507387565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_21
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 192.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58211191120f4fc295e058ea46a8964
+      internalID: 6329992038361131589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_22
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 192.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686ad2a4eaaa24878894615df8afdb58
+      internalID: -4134557831535011886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_23
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 192.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b28b9602c354b4090fcd08dfed5425
+      internalID: 3725972724072475881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 97.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860957d8d77724715a9fb8070d69f38b
+      internalID: -9126213569111876797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_25
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 97.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7e0f0c8c8ac4c0e98fd642fc0f7745
+      internalID: -2514575057120493582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_26
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 97.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50cf94743cb246e8aba31213a556f82
+      internalID: -1942248068529445626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_27
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 97.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de5fb901c32c43af8314454486616a4
+      internalID: -2621242740509173673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_28
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 97.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22eac6e09658a4723afd4259c8c4fd4e
+      internalID: -8541284611631458374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_29
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 97.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9095037e80145e29027a43b7f81355
+      internalID: -2869845098246153020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_30
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 97.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf510d31f51cf4288af3109403d33d10
+      internalID: -3700257060161261126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_31
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 97.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85c7bc01ae5e4431b9cda848c259845
+      internalID: 4744378008332316557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_32
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 97.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36aedb14a6f343dc97f8dfa9a33095c
+      internalID: -3159211510022341415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_33
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 97.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe254ffaa527475eb44acff716c147f
+      internalID: 6964043809414059044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_34
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 97.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9813175c914aa484faf8a723f9705e1b
+      internalID: 180005569845781570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_35
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 97.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8bc5b521ea814001bd3a98b0435eb6c
+      internalID: -1586651094098030898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265c2902f75ae449ca0e8f3c790a09f1
+      internalID: -8605933044682247498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_37
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 2.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b103307e1d94e0496fc7890d32d054
+      internalID: 4625564293465447934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_38
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 2.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a1dec0d3e634bebaccbb77e893c40f
+      internalID: -8810443250805729183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_39
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 2.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1459e29658952468492abc69d85fcf53
+      internalID: 4369621729246790668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_40
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea9467f1eb6f4051a73e5af2dc9b507
+      internalID: 128362281219767178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_41
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deaa32c49d5994ac491867cbc9517309
+      internalID: -4340741067471200176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_42
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 2.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083b55aff987c4605b4718b7f28a79e0
+      internalID: 6203246656631344626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_43
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 2.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bc9e7bfa0f64833ba2cdf18ea09690
+      internalID: -3421799146079741076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_44
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 2.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f69bf532ccde426b8ccf1657c16049f
+      internalID: -4999085641499904901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_45
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 2.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f2f0407c13241fd85814d96a7c6c70
+      internalID: -697646442865110567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_46
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 2.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd0089cab1d04a30a65745e794b439b
+      internalID: 2235348037344700395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9325213_knight-sprites-rpg-character-sprite-sheet-png_47
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 2.25
+        width: 68.333336
+        height: 95.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f4f9de9682f422ea8739e2e108e672
+      internalID: 5459880651313322508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -7,7 +7,6 @@ public class Projectile : MonoBehaviour {
 
 	public bool canBeBroken;
 
-	[HideInInspector] public int teamIndex;
 	[HideInInspector] public float damage;
 
 	void OnTriggerEnter2D(Collider2D other) 
@@ -18,14 +17,16 @@ public class Projectile : MonoBehaviour {
 		}
 		
 		Entity oC = other.gameObject.GetComponent<Entity>();
-		if (oC != null && oC.TeamNumber != teamIndex) {
+		if (oC != null)
+		if (TeamTag.Compare(other.gameObject, gameObject) == false) {
 			oC.healthAtt.IncreaseCurrentHealth(-damage);
 			TryDestroyProjectile();
 			return;
 		}
 
 		Projectile oP = other.GetComponent<Projectile>();
-		if (oP != null && oP.teamIndex != teamIndex) {
+		if (oP != null)
+		if (TeamTag.Compare(other.gameObject, gameObject)) {
 			TryDestroyProjectile();
 			return;
 		}
@@ -33,7 +34,7 @@ public class Projectile : MonoBehaviour {
 
 	void OnTriggerExit2D(Collider2D other)
 	{
-		if (other.gameObject.tag == "GameArea") {
+		if (other.gameObject.tag == "Game Bound") {
 			ObjectPool.Instance.PushToPool(gameObject);
 		}
 	}
