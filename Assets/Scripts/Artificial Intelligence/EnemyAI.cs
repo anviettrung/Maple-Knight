@@ -8,7 +8,7 @@ using UnityEngine;
 public class EnemyAI : MonoBehaviour
 {
 	protected Movable mover;
-	protected Entity  entity;
+	protected Entity  entity; // this gameobject
 	protected TeamTag teamTag;
 	public float attackRange; // prevent chasing too close to target
 
