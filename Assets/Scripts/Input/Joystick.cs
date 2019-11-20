@@ -53,8 +53,6 @@ public class Joystick : Singleton<Joystick>
 			// valid (touch(i)); // Check if this touch UI or not
 			Touch t = Input.GetTouch(i);
 			if (t.phase == TouchPhase.Began) {
-				Debug.Log("Saved Point A & Create Joystick using " + t.fingerId);
-
 				StartJoystick();
 
 				touchID = t.fingerId;
@@ -75,7 +73,6 @@ public class Joystick : Singleton<Joystick>
 
 	private void EndJoystick()
 	{
-		Debug.Log("Touch End");
 		IsUsingJoystick = false;
 		circle.GetComponent<Image>().enabled = false;
 		outerCircle.GetComponent<Image>().enabled = false;

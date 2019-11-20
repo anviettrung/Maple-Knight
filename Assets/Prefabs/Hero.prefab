@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 648050006}
   - component: {fileID: 648050007}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66,7 +66,7 @@ GameObject:
   - component: {fileID: 1448046615}
   - component: {fileID: 1448046614}
   - component: {fileID: 4766990541053329509}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hero
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,7 +169,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -187,7 +187,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a884923725b054699bc874e5133443e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
+  OnComputeVelocity:
+    m_PersistentCalls:
+      m_Calls: []
+  moveSpeed: 2
 --- !u!114 &442295315316857375
 MonoBehaviour:
   m_ObjectHideFlags: 0

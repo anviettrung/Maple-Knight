@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PhantomArrow
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 0}
-  cooldownDuration: 2
+  cooldownDuration: 0.75
   stCost: 0
   mpCost: 0
   rotateToFlyDirection: 1
