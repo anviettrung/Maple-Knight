@@ -5,13 +5,18 @@ using UnityEngine;
 public class CameraFitArea : MonoBehaviour
 {
 	public SpriteRenderer rink;
+	public bool isVerticalFit;
+	public bool isHorizontalFit;
 
 	void Start()
 	{
+		if (isVerticalFit) {
+			verticalFit();
+		} else if (isHorizontalFit) {
+			horizontalFit();
+		}
 
-		verticalFit();
 		AlignVerticalMiddle();
-		AlignLeft();
 	}
 
 	// Top and bottom edges of the area touch the camera edges
