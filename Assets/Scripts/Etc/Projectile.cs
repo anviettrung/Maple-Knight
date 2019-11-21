@@ -5,7 +5,8 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Projectile : MonoBehaviour {
 
-	public bool canBeBroken;
+	public bool canBeBroken;  // destroy when touch entity
+	public bool canBeCounter; // destroy by other projectile
 
 	[HideInInspector] public float damage;
 
@@ -20,14 +21,16 @@ public class Projectile : MonoBehaviour {
 		if (oC != null)
 		if (TeamTag.Compare(other.gameObject, gameObject) == false) {
 			oC.healthAtt.IncreaseCurrentHealth(-damage);
-			TryDestroyProjectile();
+			if (canBeBroken) 
+				TryDestroyProjectile();
 			return;
 		}
 
 		Projectile oP = other.GetComponent<Projectile>();
 		if (oP != null)
-		if (TeamTag.Compare(other.gameObject, gameObject)) {
-			TryDestroyProjectile();
+		if (TeamTag.Compare(other.gameObject, gameObject) == false) {
+			if (canBeCounter) 
+				TryDestroyProjectile();
 			return;
 		}
 	}
@@ -41,7 +44,6 @@ public class Projectile : MonoBehaviour {
 
 	void TryDestroyProjectile()
 	{
-		if (canBeBroken)
-			ObjectPool.Instance.PushToPool(gameObject);
+		ObjectPool.Instance.PushToPool(gameObject);
 	}
 }

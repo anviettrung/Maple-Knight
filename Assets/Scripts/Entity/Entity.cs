@@ -28,6 +28,12 @@ public abstract class Entity : MonoBehaviour {
 	}
 	protected int currentAbilityIndex;
 
+	public AbilityUsing CurrentAbility {
+		get {
+			return abilities[currentAbilityIndex];
+		}
+	}
+
 	public GameObject weapon;
 
 	[HideInInspector]

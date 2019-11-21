@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Ability\AbilityCooldown.cs" />
     <Compile Include="Assets\Scripts\Ability\AttackAbility.cs" />
     <Compile Include="Assets\Scripts\Ability\ProjectileShootTriggerable.cs" />
+    <Compile Include="Assets\Scripts\Ability\SupernovaAbility.cs" />
     <Compile Include="Assets\Scripts\Artificial Intelligence\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\Attribute\Attribute.cs" />
     <Compile Include="Assets\Scripts\Attribute\DamageAtt.cs" />

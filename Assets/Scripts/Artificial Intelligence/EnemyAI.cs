@@ -9,8 +9,10 @@ public class EnemyAI : MonoBehaviour
 {
 	protected Movable mover;
 	protected Entity  entity; // this gameobject
+	protected ProjectileShootTriggerable weapon;
 	protected TeamTag teamTag;
-	public float attackRange; // prevent chasing too close to target
+	public float chaseRange; // prevent chasing too close to target
+	public float attackRange;
 
 	public Collider2D searchingArea;
 	protected ContactFilter2D contactFilter;
@@ -26,6 +28,7 @@ public class EnemyAI : MonoBehaviour
 		mover.OnComputeVelocity.AddListener(SetDirection);
 		entity = gameObject.GetComponent<Entity>();
 		teamTag = gameObject.GetComponent<TeamTag>();
+		weapon = entity.weapon.GetComponent<ProjectileShootTriggerable>();
 	}
 
 	private void Start()
@@ -37,16 +40,25 @@ public class EnemyAI : MonoBehaviour
 
 	private void FixedUpdate()
 	{
-		Entity target = SearchingNearestTarget(); 
+		float distToTarget;
+		Entity target = SearchingNearestTarget(out distToTarget);
+
 		if (target != null) {
-			currentDirection = (target.transform.position - entity.transform.position).normalized;
+			if (entity.CurrentAbility.cdTimeLeft == 0) {
+				weapon.targetPosition = target.transform.position;
+				entity.CastCurrentAbility();
+			}
+			if (distToTarget > chaseRange)
+				currentDirection = (target.transform.position - entity.transform.position).normalized;
+			else
+				currentDirection = Vector2.zero;
 		} else {
 			currentDirection = Vector2.zero;
 		}
 	}
 
 
-	private Entity SearchingNearestTarget()
+	private Entity SearchingNearestTarget(out float distToTarget)
 	{
 		int count = searchingArea.OverlapCollider(contactFilter, resultBuffer);
 
@@ -57,7 +69,7 @@ public class EnemyAI : MonoBehaviour
 
 		Entity target = null;
 		float minDist = Mathf.Infinity;
-		float dist = 0;
+		distToTarget = -1;
 		for (int i = 0; i < resultBufferList.Count; i++) {
 			Entity targetTmp = resultBufferList[i].GetComponent<Entity>();
 			if (targetTmp != null && targetTmp != entity) {
@@ -65,8 +77,8 @@ public class EnemyAI : MonoBehaviour
 
 				if (targetTeamTag != null) 
 					if (TeamTag.Compare(teamTag, targetTeamTag) == false) {
-						dist = (entity.transform.position - targetTeamTag.transform.position).magnitude;
-						if (dist < minDist && dist > attackRange)
+						distToTarget = (entity.transform.position - targetTeamTag.transform.position).magnitude;
+						if (distToTarget < minDist)
 							target = targetTmp;
 					}
 			}
