@@ -68,12 +68,14 @@
     <Compile Include="Assets\Scripts\Ability\ProjectileShootTriggerable.cs" />
     <Compile Include="Assets\Scripts\Ability\SupernovaAbility.cs" />
     <Compile Include="Assets\Scripts\Artificial Intelligence\EnemyAI.cs" />
+    <Compile Include="Assets\Scripts\Attribute\AttackRange.cs" />
     <Compile Include="Assets\Scripts\Attribute\Attribute.cs" />
     <Compile Include="Assets\Scripts\Attribute\DamageAtt.cs" />
     <Compile Include="Assets\Scripts\Attribute\HealthAtt.cs" />
     <Compile Include="Assets\Scripts\Attribute\ManaAtt.cs" />
     <Compile Include="Assets\Scripts\Attribute\StaminaAtt.cs" />
     <Compile Include="Assets\Scripts\Attribute\TeamTag.cs" />
+    <Compile Include="Assets\Scripts\Builder\HeroBuilder.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraFitArea.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraFollowObject.cs" />
     <Compile Include="Assets\Scripts\Entity\Entity.cs" />

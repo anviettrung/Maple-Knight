@@ -3,23 +3,42 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(TeamTag))]
 public class Projectile : MonoBehaviour {
 
-	public bool canBeBroken;  // destroy when touch entity
-	public bool canBeCounter; // destroy by other projectile
+	public bool canBeBroken;  // will be destroy if collide entity
+	public bool canBeCounter; // will be destroy if collide projectile
 
-	[HideInInspector] public float damage;
+	public float damage;
+	protected TeamTag teamTag;
+
+	private bool beingDestroy;
+
+	private void Awake()
+	{
+		teamTag = GetComponent<TeamTag>();
+	}
+
+	private void OnEnable()
+	{
+		beingDestroy = false;
+	}
+
+
 
 	void OnTriggerEnter2D(Collider2D other) 
 	{
-		if (other.gameObject.tag == "Ground") {
-			TryDestroyProjectile();
+		if (beingDestroy)
 			return;
-		}
-		
-		Entity oC = other.gameObject.GetComponent<Entity>();
+
+		TeamTag otherTeam = other.GetComponent<TeamTag>();
+
+		if (otherTeam == null)
+			return;
+
+		Entity oC = other.GetComponent<Entity>();
 		if (oC != null)
-		if (TeamTag.Compare(other.gameObject, gameObject) == false) {
+		if (TeamTag.CompareTeam(otherTeam, teamTag) == false) {
 			oC.healthAtt.IncreaseCurrentHealth(-damage);
 			if (canBeBroken) 
 				TryDestroyProjectile();
@@ -28,8 +47,8 @@ public class Projectile : MonoBehaviour {
 
 		Projectile oP = other.GetComponent<Projectile>();
 		if (oP != null)
-		if (TeamTag.Compare(other.gameObject, gameObject) == false) {
-			if (canBeCounter) 
+		if (TeamTag.CompareTeam(otherTeam, teamTag) == false) {
+			if (canBeCounter)
 				TryDestroyProjectile();
 			return;
 		}
@@ -37,13 +56,13 @@ public class Projectile : MonoBehaviour {
 
 	void OnTriggerExit2D(Collider2D other)
 	{
-		if (other.gameObject.tag == "Game Bound") {
-			ObjectPool.Instance.PushToPool(gameObject);
-		}
+		if (other.gameObject.tag == "Game Area")
+			TryDestroyProjectile();
 	}
 
 	void TryDestroyProjectile()
 	{
+		beingDestroy = true;
 		ObjectPool.Instance.PushToPool(gameObject);
 	}
 }

@@ -76,7 +76,7 @@ public class EnemyAI : MonoBehaviour
 				TeamTag targetTeamTag = resultBufferList[i].GetComponent<TeamTag>();
 
 				if (targetTeamTag != null) 
-					if (TeamTag.Compare(teamTag, targetTeamTag) == false) {
+					if (TeamTag.CompareTeam(teamTag, targetTeamTag) == false) {
 						distToTarget = (entity.transform.position - targetTeamTag.transform.position).magnitude;
 						if (distToTarget < minDist)
 							target = targetTmp;

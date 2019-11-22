@@ -18,10 +18,12 @@ public class Hero : Entity {
 		ChangeAbility(0);
 	}
 
-	private void Start()
+	public override void Init()
 	{
-		anim  = gameObject.GetComponent<Animator>();
-		mover = gameObject.GetComponent<Movable>(); 
+		base.Init();
+
+		anim = gameObject.GetComponent<Animator>();
+		mover = gameObject.GetComponent<Movable>();
 	}
 
 	private void LateUpdate()

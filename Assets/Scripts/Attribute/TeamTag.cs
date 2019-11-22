@@ -5,11 +5,23 @@ using UnityEngine;
 public class TeamTag : MonoBehaviour
 {
 	[SerializeField]
-	private int teamIndex;
+	private int    teamIndex;
+	private Entity owner;
 
 	public int Team {
 		get {
 			return teamIndex;
+		}
+	}
+
+	public Entity Owner {
+		get {
+			return owner;
+		}
+
+		set {
+			owner = value;
+			this.SetTeam(owner.GetComponent<TeamTag>().Team);
 		}
 	}
 
@@ -35,6 +47,21 @@ public class TeamTag : MonoBehaviour
 	/// Sets entity's team to target object's team
 	/// </summary>
 	/// <param name="targetObject">Target object.</param>
+	public void SetTeam(Entity targetObject)
+	{
+		TeamTag t = targetObject.GetComponent<TeamTag>();
+
+		if (t == null)
+			Debug.LogError("[" + targetObject.name + "] doesn't have a team but ["
+				+ gameObject.name + "] trying to set team tag from that");
+
+		teamIndex = t.teamIndex;
+	}
+
+	/// <summary>
+	/// Sets entity's team to target object's team
+	/// </summary>
+	/// <param name="targetObject">Target object.</param>
 	public void SetTeam(GameObject targetObject)
 	{
 		TeamTag t = targetObject.GetComponent<TeamTag>();
@@ -52,7 +79,7 @@ public class TeamTag : MonoBehaviour
 	/// <returns>true if their team are equal</returns>
 	/// <param name="teamA">Team A.</param>
 	/// <param name="teamB">Team B.</param>
-	public static bool Compare(TeamTag teamA, TeamTag teamB)
+	public static bool CompareTeam(TeamTag teamA, TeamTag teamB)
 	{
 		return teamA.Team == teamB.Team ? true : false;
 	}
@@ -67,7 +94,7 @@ public class TeamTag : MonoBehaviour
 	/// </returns>
 	/// <param name="objA">Game Object A.</param>
 	/// <param name="objB">Game Object B.</param>
-	public static bool Compare(GameObject objA, GameObject objB)
+	public static bool CompareTeam(GameObject objA, GameObject objB)
 	{
 		TeamTag teamA = objA.GetComponent<TeamTag>();
 		if (teamA == null) {

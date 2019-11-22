@@ -36,7 +36,7 @@ public class EnemyManager : Singleton<EnemyManager>
 		int i = 0;
 		int count = 0;
 		while (i < enemyList.Count) {
-			if (enemyList[i].gameObject.active)
+			if (enemyList[i].gameObject.activeInHierarchy)
 				count += 1;
 			i++;
 		}
@@ -52,7 +52,7 @@ public class EnemyManager : Singleton<EnemyManager>
 		Transform result = null;
 		float minDist = 0;
 		for (int i = 0; i < enemyList.Count; i++) {
-			if (enemyList[i].gameObject.active) {
+			if (enemyList[i].gameObject.activeInHierarchy) {
 				result = enemyList[i];
 				minDist = (point - (Vector2)enemyList[i].position).magnitude;
 				break;
@@ -65,7 +65,7 @@ public class EnemyManager : Singleton<EnemyManager>
 
 		float dist = 0;
 		for (int i = 1; i < enemyList.Count; i++) {
-			if (enemyList[i].gameObject.active) {
+			if (enemyList[i].gameObject.activeInHierarchy) {
 				dist = (point - (Vector2)enemyList[i].position).magnitude;
 
 				if (dist < minDist) {

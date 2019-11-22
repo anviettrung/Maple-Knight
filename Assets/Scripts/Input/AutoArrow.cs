@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class AutoArrow : MonoBehaviour
 {	
+	[HideInInspector]
 	public Hero player;
+	protected AttackRange attackRange;
 
 	private void Start()
 	{
-		player = gameObject.GetComponent<Hero>();
+		player      = gameObject.GetComponent<Hero>();
+		attackRange = player.GetComponent<AttackRange>();
 	}
 
 	private void Update()
@@ -16,7 +19,9 @@ public class AutoArrow : MonoBehaviour
 		if (TriggerAttack()) {
 			player.attackAble.targetPosition = EnemyManager.Instance.GetObjectNearestPoint((Vector2)player.transform.position).position;
 
-			player.CastCurrentAbility();
+			// Check if enemy in attack range
+			if (((Vector2)transform.position-player.attackAble.targetPosition).magnitude <= attackRange.maxValue)
+				player.CastCurrentAbility();
 		}
 	}
 

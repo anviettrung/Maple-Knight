@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: Creep supernova
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 0}
-  cooldownDuration: 0
+  cooldownDuration: 3
   stCost: 0
   mpCost: 0
-  numberOfProjectiles: 0
-  rotateToFlyDirection: 0
-  projectileSpeed: 0
-  projectile: {fileID: 0}
+  numberOfProjectiles: 3
+  rotateToFlyDirection: 1
+  projectileSpeed: 50
+  projectile: {fileID: 5000041367824521189, guid: 727c1855f48c64279bf3507255954e92,
+    type: 3}

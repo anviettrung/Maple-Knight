@@ -6,8 +6,8 @@ using UnityEngine;
 // Base class for living objects:
 // - Heroes
 // - Monsters
-[RequireComponent(typeof(HealthAtt))]
-[RequireComponent(typeof(DamageAtt))]
+[RequireComponent(typeof(HealthAtt))] // Living objects must have heath
+[RequireComponent(typeof(TeamTag))]   // For communication with others
 public abstract class Entity : MonoBehaviour {
 
 	[System.Serializable]
@@ -44,14 +44,23 @@ public abstract class Entity : MonoBehaviour {
 	public StaminaAtt staminaAtt;
 	[HideInInspector]
 	public DamageAtt  damageAtt;
+	[HideInInspector]
+	public TeamTag teamTag;
 
 	protected virtual void Awake()
 	{
+		Init();
+	}
+
+	public virtual void Init()
+	{
 		
-		healthAtt  = GetComponent<HealthAtt> ();
-		manaAtt    = GetComponent<ManaAtt> ();
-		staminaAtt = GetComponent<StaminaAtt> ();
-		damageAtt  = GetComponent<DamageAtt> ();
+		healthAtt  = GetComponent<HealthAtt>();
+		manaAtt    = GetComponent<ManaAtt>();
+		staminaAtt = GetComponent<StaminaAtt>();
+		damageAtt  = GetComponent<DamageAtt>();
+		teamTag    = GetComponent<TeamTag>();
+		teamTag.Owner = this;
 		healthAtt.OnHealthPointIsZero.AddListener(OnDying);
 
 	}
@@ -59,12 +68,12 @@ public abstract class Entity : MonoBehaviour {
 	void Update()
 	{
 		for (int i = 0; i < abilities.Count; i++) {
-			Cooldown(abilities[i], Time.deltaTime);
+			ReduceCooldown(abilities[i], Time.deltaTime);
 		}
 		
 	}
 
-	void Cooldown(AbilityUsing abil, float timePassed)
+	void ReduceCooldown(AbilityUsing abil, float timePassed)
 	{
 		if (abil.cdTimeLeft > 0) {
 			abil.cdTimeLeft -= timePassed;
@@ -77,7 +86,7 @@ public abstract class Entity : MonoBehaviour {
 	{
 		if (abilities[currentAbilityIndex].cdTimeLeft == 0) {
 			abilities[currentAbilityIndex].data.OnSpellStart(this);
-			abilities[currentAbilityIndex].cdTimeLeft += abilities[currentAbilityIndex].data.cooldownDuration;
+			abilities[currentAbilityIndex].cdTimeLeft = abilities[currentAbilityIndex].data.cooldownDuration;
 		}
 	}
 
@@ -88,7 +97,7 @@ public abstract class Entity : MonoBehaviour {
 			currentAbilityIndex = index;
 			abilities[currentAbilityIndex].data.OnSelected(this);
 		} else {
-			Debug.LogWarning(abilities[index]);
+			Debug.LogWarning("[" + gameObject.name + "]" + "doesn't have " + (index+1) + "th ability.");
 		}
 	}
 

@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3199b8a982b4848178dad9b2dd25947e, type: 3}
-  m_Name: PhantomArrow
+  m_Name: Phantom bubble
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 0}
   cooldownDuration: 0.75
   stCost: 0
   mpCost: 0
   rotateToFlyDirection: 1
-  projectileSpeed: 500
+  projectileSpeed: 150
   projectile: {fileID: 5000041367824521189, guid: a70fc3c132f7a4f7bb59fe47dda82161,
     type: 3}
